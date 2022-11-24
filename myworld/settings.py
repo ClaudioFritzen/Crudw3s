@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     # meus apps
-    'members',
+    'members.apps.MembersConfig',
 ]
 
 MIDDLEWARE = [
